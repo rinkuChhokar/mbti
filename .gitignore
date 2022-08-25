@@ -124,9 +124,6 @@ celerybeat.pid
 *.sage.py
 
 
-config.toml
-.streamlit
-
 # Environments
 .env
 .venv
