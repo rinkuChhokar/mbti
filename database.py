@@ -4,14 +4,14 @@ import streamlit as st
 
 
 
-DETA_KEY = st.secrets["DETA_KEY"]
+# DETA_KEY = st.secrets["DETA_KEY"]
 
-DETA_KEY2 = st.secrets["DETA_KEY2"]
+# DETA_KEY2 = st.secrets["DETA_KEY2"]
 
 
-deta = Deta(DETA_KEY)
+deta = Deta(st.secrets["DETA_KEY"])
 
-deta1 = Deta(DETA_KEY2)
+deta1 = Deta(st.secrets["DETA_KEY2"])
 
 db = deta.Base("info_db")
 
