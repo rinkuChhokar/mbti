@@ -4,9 +4,9 @@ import streamlit as st
 
 
 
-# DETA_KEY = st.secrets["DETA_KEY"]
+# DETA_KEY = st.secrets["dkey"]
 
-# DETA_KEY2 = st.secrets["DETA_KEY2"]
+# DETA_KEY2 = st.secrets["dkey2"]
 
 
 deta = Deta(st.secrets["DETA_KEY"])
