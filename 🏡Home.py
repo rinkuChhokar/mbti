@@ -486,7 +486,7 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                 <div class="container">
                     <div>
-                        <a class="btn btn-dark btn-lg btn-block" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
+                        <a class="btn btn-dark btn-lg btn-block" href="https://rinkuchhokar-mbti-home-7hdujp.streamlitapp.com/" target="_self" role="button">Play Again</a>
                     </div>
                 </div>
                 """
@@ -569,7 +569,7 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                 <div class="container">
                     <div>
-                        <a class="btn btn-dark btn-lg btn-block" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
+                        <a class="btn btn-dark btn-lg btn-block" href="https://rinkuchhokar-mbti-home-7hdujp.streamlitapp.com/" target="_self" role="button">Play Again</a>
                     </div>
                 </div>
                 """
@@ -653,7 +653,7 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                 <div class="container">
                     <div>
-                        <a class="btn btn-dark btn-lg btn-block" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
+                        <a class="btn btn-dark btn-lg btn-block" href="https://rinkuchhokar-mbti-home-7hdujp.streamlitapp.com/" target="_self" role="button">Play Again</a>
                     </div>
                 </div>
                 """
@@ -739,19 +739,6 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
                 """
             st.markdown(html_code1,unsafe_allow_html=True)
 
-            st.markdown("<br>",unsafe_allow_html=True)
-            st.markdown("<br>",unsafe_allow_html=True)
-            html_code1 ="""
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-                <div class="container">
-                    <div>
-                        <a class="btn btn-dark btn-lg btn-block" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
-                    </div>
-                </div>
-                """
-            st.markdown(html_code1,unsafe_allow_html=True)
 
 
 
@@ -830,7 +817,7 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                 <div class="container">
                     <div>
-                        <a class="btn btn-dark btn-lg btn-block" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
+                        <a class="btn btn-dark btn-lg btn-block" href="https://rinkuchhokar-mbti-home-7hdujp.streamlitapp.com/" target="_self" role="button">Play Again</a>
                     </div>
                 </div>
                 """
@@ -910,23 +897,11 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
                 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                 <div class="container">
-                    <a class="btn btn-success" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
+                    <a class="btn btn-success" href="https://rinkuchhokar-mbti-home-7hdujp.streamlitapp.com/" target="_self" role="button">Play Again</a>
                 </div>
                 """
             st.markdown(html_code1,unsafe_allow_html=True)
-            st.markdown("<br>",unsafe_allow_html=True)
-            st.markdown("<br>",unsafe_allow_html=True)
-            html_code1 ="""
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-                <div class="container">
-                    <div>
-                        <a class="btn btn-dark btn-lg btn-block" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
-                    </div>
-                </div>
-                """
-            st.markdown(html_code1,unsafe_allow_html=True)
+
 
 
 
@@ -1005,7 +980,7 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                 <div class="container">
                     <div>
-                        <a class="btn btn-dark btn-lg btn-block" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
+                        <a class="btn btn-dark btn-lg btn-block" href="https://rinkuchhokar-mbti-home-7hdujp.streamlitapp.com/" target="_self" role="button">Play Again</a>
                     </div>
                 </div>
                 """
@@ -1088,7 +1063,7 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                 <div class="container">
                     <div>
-                        <a class="btn btn-dark btn-lg btn-block" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
+                        <a class="btn btn-dark btn-lg btn-block" href="https://rinkuchhokar-mbti-home-7hdujp.streamlitapp.com/" target="_self" role="button">Play Again</a>
                     </div>
                 </div>
                 """
@@ -1172,7 +1147,7 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                 <div class="container">
                     <div>
-                        <a class="btn btn-dark btn-lg btn-block" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
+                        <a class="btn btn-dark btn-lg btn-block" href="https://rinkuchhokar-mbti-home-7hdujp.streamlitapp.com/" target="_self" role="button">Play Again</a>
                     </div>
                 </div>
                 """
@@ -1256,7 +1231,7 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                 <div class="container">
                     <div>
-                        <a class="btn btn-dark btn-lg btn-block" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
+                        <a class="btn btn-dark btn-lg btn-block" href="https://rinkuchhokar-mbti-home-7hdujp.streamlitapp.com/" target="_self" role="button">Play Again</a>
                     </div>
                 </div>
                 """
@@ -1338,7 +1313,7 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                 <div class="container">
                     <div>
-                        <a class="btn btn-dark btn-lg btn-block" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
+                        <a class="btn btn-dark btn-lg btn-block" href="https://rinkuchhokar-mbti-home-7hdujp.streamlitapp.com/" target="_self" role="button">Play Again</a>
                     </div>
                 </div>
                 """
@@ -1421,7 +1396,7 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                 <div class="container">
                     <div>
-                        <a class="btn btn-dark btn-lg btn-block" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
+                        <a class="btn btn-dark btn-lg btn-block" href="https://rinkuchhokar-mbti-home-7hdujp.streamlitapp.com/" target="_self" role="button">Play Again</a>
                     </div>
                 </div>
                 """
@@ -1506,7 +1481,7 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                 <div class="container">
                     <div>
-                        <a class="btn btn-dark btn-lg btn-block" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
+                        <a class="btn btn-dark btn-lg btn-block" href="https://rinkuchhokar-mbti-home-7hdujp.streamlitapp.com/" target="_self" role="button">Play Again</a>
                     </div>
                 </div>
                 """
@@ -1590,7 +1565,7 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                 <div class="container">
                     <div>
-                        <a class="btn btn-dark btn-lg btn-block" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
+                        <a class="btn btn-dark btn-lg btn-block" href="https://rinkuchhokar-mbti-home-7hdujp.streamlitapp.com/" target="_self" role="button">Play Again</a>
                     </div>
                 </div>
                 """
@@ -1674,7 +1649,7 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                 <div class="container">
                     <div>
-                        <a class="btn btn-dark btn-lg btn-block" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
+                        <a class="btn btn-dark btn-lg btn-block" href="https://rinkuchhokar-mbti-home-7hdujp.streamlitapp.com/" target="_self" role="button">Play Again</a>
                     </div>
                 </div>
                 """
@@ -1756,7 +1731,7 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                 <div class="container">
                     <div>
-                        <a class="btn btn-dark btn-lg btn-block" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
+                        <a class="btn btn-dark btn-lg btn-block" href="https://rinkuchhokar-mbti-home-7hdujp.streamlitapp.com/" target="_self" role="button">Play Again</a>
                     </div>
                 </div>
                 """
@@ -2380,7 +2355,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                 <div class="container">
                     <div>
-                        <a class="btn btn-dark btn-lg btn-block" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
+                        <a class="btn btn-dark btn-lg btn-block" href="https://rinkuchhokar-mbti-home-7hdujp.streamlitapp.com/" target="_self" role="button">Play Again</a>
                     </div>
                 </div>
                 """
@@ -2446,7 +2421,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                 <div class="container">
                     <div>
-                        <a class="btn btn-dark btn-lg btn-block" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
+                        <a class="btn btn-dark btn-lg btn-block" href="https://rinkuchhokar-mbti-home-7hdujp.streamlitapp.com/" target="_self" role="button">Play Again</a>
                     </div>
                 </div>
                 """
@@ -2512,7 +2487,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                 <div class="container">
                     <div>
-                        <a class="btn btn-dark btn-lg btn-block" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
+                        <a class="btn btn-dark btn-lg btn-block" href="https://rinkuchhokar-mbti-home-7hdujp.streamlitapp.com/" target="_self" role="button">Play Again</a>
                     </div>
                 </div>
                 """
@@ -2577,7 +2552,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                 <div class="container">
                     <div>
-                        <a class="btn btn-dark btn-lg btn-block" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
+                        <a class="btn btn-dark btn-lg btn-block" href="https://rinkuchhokar-mbti-home-7hdujp.streamlitapp.com/" target="_self" role="button">Play Again</a>
                     </div>
                 </div>
                 """
@@ -3275,7 +3250,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                 <div class="container">
                     <div>
-                        <a class="btn btn-dark btn-lg btn-block" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
+                        <a class="btn btn-dark btn-lg btn-block" href="https://rinkuchhokar-mbti-home-7hdujp.streamlitapp.com/" target="_self" role="button">Play Again</a>
                     </div>
                 </div>
                 """
@@ -3340,7 +3315,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                 <div class="container">
                     <div>
-                        <a class="btn btn-dark btn-lg btn-block" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
+                        <a class="btn btn-dark btn-lg btn-block" href="https://rinkuchhokar-mbti-home-7hdujp.streamlitapp.com/" target="_self" role="button">Play Again</a>
                     </div>
                 </div>
                 """
@@ -3406,7 +3381,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                 <div class="container">
                     <div>
-                        <a class="btn btn-dark btn-lg btn-block" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
+                        <a class="btn btn-dark btn-lg btn-block" href="https://rinkuchhokar-mbti-home-7hdujp.streamlitapp.com/" target="_self" role="button">Play Again</a>
                     </div>
                 </div>
                 """
@@ -3472,7 +3447,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                 <div class="container">
                     <div>
-                        <a class="btn btn-dark btn-lg btn-block" href="http://localhost:8501/" target="_self" role="button">Play Again</a>
+                        <a class="btn btn-dark btn-lg btn-block" href="https://rinkuchhokar-mbti-home-7hdujp.streamlitapp.com/" target="_self" role="button">Play Again</a>
                     </div>
                 </div>
                 """
