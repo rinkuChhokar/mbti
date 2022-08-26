@@ -9,9 +9,9 @@ import streamlit as st
 # DETA_KEY2 = st.secrets["dkey2"]
 
 
-deta = Deta(st.secrets.dkey)
+deta = Deta(st.secrets["DETA_KEY"])
 
-deta1 = Deta(st.secrets.dkey2)
+deta1 = Deta(st.secrets["DETA_KEY2"])
 
 db = deta.Base("info_db")
 
