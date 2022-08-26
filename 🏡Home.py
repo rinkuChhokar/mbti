@@ -1802,7 +1802,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/1b.PNG")
  
-        btn = st.button("I can sell an idea",key=0)
+        btn = st.button("I can sell an idea",key=1)
         if btn:
 
             assign(q1,"I can sell an idea")
@@ -1812,7 +1812,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/1c.PNG")
 
-        btn = st.button("I'm quite serious",key=0)
+        btn = st.button("I'm quite serious",key=2)
         
         if btn:
 
@@ -1823,7 +1823,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/1d.PNG")
  
-        btn = st.button("I'm a good listener",key=0)
+        btn = st.button("I'm a good listener",key=3)
         
         if btn:
 
@@ -1847,7 +1847,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/2a.PNG")
 
-        btn2 = st.button("'let's do it my way!'",key=1)
+        btn2 = st.button("'let's do it my way!'",key=4)
         if btn2:
             assign(q2,"'let's do it my way!'")
 
@@ -1856,7 +1856,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/2b.PNG")
 
-        btn2 = st.button("'no worries bro!'",key=1)
+        btn2 = st.button("'no worries bro!'",key=5)
         if btn2:
             assign(q2,"'no worries bro!'")
 
@@ -1865,7 +1865,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/2c.PNG")
 
-        btn2 = st.button("'how does that work?'",key=1)
+        btn2 = st.button("'how does that work?'",key=6)
         
         if btn2:
             assign(q2,"'how does that work?'")
@@ -1875,7 +1875,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/2d.PNG")
 
-        btn2 = st.button("'let's keep the peace'",key=1)
+        btn2 = st.button("'let's keep the peace'",key=7)
         
         if btn2:
             assign(q2,"'let's keep the peace'")
@@ -1899,7 +1899,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/3a.PNG")
 
-        btn3 = st.button("calm",key=2)
+        btn3 = st.button("calm",key=8)
         if btn3:
             assign(q3,"calm")
 
@@ -1908,7 +1908,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/3b.PNG")
 
-        btn3 = st.button("practical",key=2)
+        btn3 = st.button("practical",key=9)
         if btn3:
             assign(q3,"practical")
 
@@ -1917,7 +1917,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/3c.PNG")
 
-        btn3 = st.button("independent",key=2)
+        btn3 = st.button("independent",key=10)
         
         if btn3:
             assign(q3,"independent")
@@ -1927,7 +1927,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/3d.PNG")
 
-        btn3 = st.button("bright ideas",key=2)
+        btn3 = st.button("bright ideas",key=11)
         
         if btn3:
             assign(q3,"bright ideas")
@@ -1950,7 +1950,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/4a.PNG")
 
-        btn4 = st.button("It's exciting I enjoy change",key=3)
+        btn4 = st.button("It's exciting I enjoy change",key=12)
         if btn4:
             assign(q4,"It's exciting I enjoy change")
 
@@ -1959,7 +1959,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/4b.PNG")
 
-        btn4 = st.button("'I'll work it out'",key=3)
+        btn4 = st.button("'I'll work it out'",key=13)
         if btn4:
             assign(q4,"'I'll work it out'")
 
@@ -1968,7 +1968,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/4c.PNG")
 
-        btn4 = st.button("I like challenges to overcome",key=3)
+        btn4 = st.button("I like challenges to overcome",key=14)
         
         if btn4:
             assign(q4,"I like challenges to overcome")
@@ -1978,7 +1978,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/4d.PNG")
 
-        btn4 = st.button("I'm patient and flexible",key=3)
+        btn4 = st.button("I'm patient and flexible",key=15)
         
         if btn4:
             assign(q4,"I'm patient and flexible")
@@ -2004,7 +2004,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/5a.PNG")
 
-        btn5 = st.button("Yes but it's a good thing",key=4)
+        btn5 = st.button("Yes but it's a good thing",key=16)
         if btn5:
             assign(q5,"Yes but it's a good thing")
 
@@ -2013,7 +2013,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/5b.PNG")
 
-        btn5 = st.button("I was just excited",key=4)
+        btn5 = st.button("I was just excited",key=17)
         if btn5:
             assign(q5,"I was just excited")
 
@@ -2022,7 +2022,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/5c.PNG")
 
-        btn5 = st.button("Maybe once or twice",key=4)
+        btn5 = st.button("Maybe once or twice",key=18)
         
         if btn5:
             assign(q5,"Maybe once or twice")
@@ -2032,7 +2032,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/5d.PNG")
 
-        btn5 = st.button("No way!",key=4)
+        btn5 = st.button("No way!",key=19)
         
         if btn5:
             assign(q5,"No way!")
@@ -2057,7 +2057,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/6a.PNG")
 
-        btn6 = st.button("Puts other people first",key=5)
+        btn6 = st.button("Puts other people first",key=20)
         if btn6:
             assign(q6,"Puts other people first")
 
@@ -2066,7 +2066,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/6b.PNG")
 
-        btn6 = st.button("Neat and tidy",key=5)
+        btn6 = st.button("Neat and tidy",key=21)
         if btn6:
             assign(q6,"Neat and tidy")
 
@@ -2075,7 +2075,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/6c.PNG")
 
-        btn6 = st.button("People like me",key=5)
+        btn6 = st.button("People like me",key=22)
         
         if btn6:
             assign(q6,"People like me")
@@ -2085,7 +2085,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/6d.PNG")
 
-        btn6 = st.button("Confident and brave",key=5)
+        btn6 = st.button("Confident and brave",key=23)
         
         if btn6:
             assign(q6,"Confident and brave")
@@ -2110,7 +2110,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/7a.PNG")
 
-        btn7 = st.button("Friendly",key=6)
+        btn7 = st.button("Friendly",key=24)
         if btn7:
             assign(q7,"Friendly")
 
@@ -2119,7 +2119,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/7b.PNG")
 
-        btn7 = st.button("Loyal",key=6)
+        btn7 = st.button("Loyal",key=25)
         if btn7:
             assign(q7,"Loyal")
 
@@ -2128,7 +2128,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/7c.PNG")
 
-        btn7 = st.button("Reliable",key=6)
+        btn7 = st.button("Reliable",key=26)
         
         if btn7:
             assign(q7,"Reliable")
@@ -2138,7 +2138,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/7d.PNG")
 
-        btn7 = st.button("Competitive",key=6)
+        btn7 = st.button("Competitive",key=27)
         
         if btn7:
             assign(q7,"Competitive")
@@ -2164,7 +2164,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/8a.PNG",width=150)
         
-        btn8 = st.button("Keep it to yourself",key=7)
+        btn8 = st.button("Keep it to yourself",key=28)
         if btn8:
             assign(q8,"Keep it to yourself")
 
@@ -2172,7 +2172,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
     with col30:
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/8b.PNG",width=170)
-        btn8 = st.button("Yell at them",key=7)
+        btn8 = st.button("Yell at them",key=29)
         if btn8:
             assign(q8,"Yell at them")
 
@@ -2180,7 +2180,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
     with col31:
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/8c.PNG",width=170)
-        btn8 = st.button("Make fun of them",key=7)
+        btn8 = st.button("Make fun of them",key=30)
         
         if btn8:
             assign(q8,"Make fun of them")
@@ -2190,7 +2190,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://raw.githubusercontent.com/rinkuChhokar/images/main/8d.PNG",width=150)
 
-        btn8 = st.button("People don't make me frustrated very often",key=7)
+        btn8 = st.button("People don't make me frustrated very often",key=31)
         
         if btn8:
             assign(q8,"People don't make me frustrated very often")
@@ -2626,7 +2626,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1505394033641-40c6ad1178d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1487&q=80")
  
-        btn = st.button("Objectivity",key=0)
+        btn = st.button("Objectivity",key=1)
         if btn:
 
             assign(q1,"Objectivity")
@@ -2636,7 +2636,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80")
 
-        btn = st.button("Loyalty",key=0)
+        btn = st.button("Loyalty",key=2)
         
         if btn:
 
@@ -2647,7 +2647,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1588195540875-63c2be0f60ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1498&q=80")
  
-        btn = st.button("Courage",key=0)
+        btn = st.button("Courage",key=3)
         
         if btn:
 
@@ -2671,7 +2671,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1546039907-7fa05f864c02?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80")
 
-        btn2 = st.button("Stable",key=1)
+        btn2 = st.button("Stable",key=4)
         if btn2:
             assign(q2,"Stable")
 
@@ -2680,7 +2680,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80")
 
-        btn2 = st.button("Superior intellect",key=1)
+        btn2 = st.button("Superior intellect",key=5)
         if btn2:
             assign(q2,"Superior intellect")
 
@@ -2689,7 +2689,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1490457843367-34b21b6ccd85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1444&q=80")
 
-        btn2 = st.button("Warm",key=1)
+        btn2 = st.button("Warm",key=6)
         
         if btn2:
             assign(q2,"Warm")
@@ -2699,7 +2699,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1540832804691-58c47b913830?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80")
 
-        btn2 = st.button("Fun-loving, enjoys life",key=1)
+        btn2 = st.button("Fun-loving, enjoys life",key=7)
         
         if btn2:
             assign(q2,"Fun-loving, enjoys life")
@@ -2723,7 +2723,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1583401495411-d693f393c074?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80")
 
-        btn3 = st.button("Bossy",key=2)
+        btn3 = st.button("Bossy",key=8)
         if btn3:
             assign(q3,"Bossy")
 
@@ -2732,7 +2732,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1563117983-1879e02d1340?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80")
 
-        btn3 = st.button("Emotionally controlled",key=2)
+        btn3 = st.button("Emotionally controlled",key=9)
         if btn3:
             assign(q3,"Emotionally controlled")
 
@@ -2741,7 +2741,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1657101455328-6821c90b0ad3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1481&q=80")
 
-        btn3 = st.button("Hopelessly naïve",key=2)
+        btn3 = st.button("Hopelessly naïve",key=10)
         
         if btn3:
             assign(q3,"Hopelessly naïve")
@@ -2751,7 +2751,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1646990378605-aea406fc1868?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80")
 
-        btn3 = st.button("Not able to stay on task",key=2)
+        btn3 = st.button("Not able to stay on task",key=11)
         
         if btn3:
             assign(q3,"Not able to stay on task")
@@ -2774,7 +2774,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1536&q=80")
 
-        btn4 = st.button("Irresponsibility",key=3)
+        btn4 = st.button("Irresponsibility",key=12)
         if btn4:
             assign(q4,"Irresponsibility")
 
@@ -2783,7 +2783,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1617455559706-fa196228c05d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80")
 
-        btn4 = st.button("Routine",key=3)
+        btn4 = st.button("Routine",key=13)
         if btn4:
             assign(q4,"Routine")
 
@@ -2792,7 +2792,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1619371812376-e34e819eb8f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1505&q=80")
 
-        btn4 = st.button("Lying",key=3)
+        btn4 = st.button("Lying",key=14)
         
         if btn4:
             assign(q4,"Lying")
@@ -2802,7 +2802,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1628505048571-327399c9324c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1429&q=80")
 
-        btn4 = st.button("Rules and laws",key=3)
+        btn4 = st.button("Rules and laws",key=15)
         
         if btn4:
             assign(q4,"Rules and laws")
@@ -2828,7 +2828,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1585238341267-1cfec2046a55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80")
 
-        btn5 = st.button("Being obsessive",key=4)
+        btn5 = st.button("Being obsessive",key=16)
         if btn5:
             assign(q5,"Being obsessive")
 
@@ -2837,7 +2837,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1566217688581-b2191944c2f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80")
 
-        btn5 = st.button("Blowing up when criticized",key=4)
+        btn5 = st.button("Blowing up when criticized",key=17)
         if btn5:
             assign(q5,"Blowing up when criticized")
 
@@ -2846,7 +2846,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1626869300065-3bfc3a8b2e42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1451&q=80")
 
-        btn5 = st.button("Suppressing problems",key=4)
+        btn5 = st.button("Suppressing problems",key=18)
         
         if btn5:
             assign(q5,"Suppressing problems")
@@ -2856,7 +2856,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80")
 
-        btn5 = st.button("Being quick-tempered",key=4)
+        btn5 = st.button("Being quick-tempered",key=19)
         
         if btn5:
             assign(q5,"Being quick-tempered")
@@ -2881,7 +2881,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1585238342024-78d387f4a707?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80")
 
-        btn6 = st.button("Sincere appreciation is shown",key=5)
+        btn6 = st.button("Sincere appreciation is shown",key=20)
         if btn6:
             assign(q6,"Sincere appreciation is shown")
 
@@ -2890,7 +2890,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1654722906311-19970c50bed8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1462&q=80")
 
-        btn6 = st.button("The quality of your work is recognized",key=5)
+        btn6 = st.button("The quality of your work is recognized",key=21)
         if btn6:
             assign(q6,"The quality of your work is recognized")
 
@@ -2899,7 +2899,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1628840042765-356cda07504e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80")
 
-        btn6 = st.button("You are praised with an energetic and enthusiastic manner",key=5)
+        btn6 = st.button("You are praised with an energetic and enthusiastic manner",key=22)
         
         if btn6:
             assign(q6,"You are praised with an energetic and enthusiastic manner")
@@ -2909,7 +2909,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1585828922344-85c9daa264b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1540&q=80")
 
-        btn6 = st.button("You are praised with actions",key=5)
+        btn6 = st.button("You are praised with actions",key=23)
         
         if btn6:
             assign(q6,"You are praised with actions")
@@ -2934,7 +2934,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1607664608695-45aaa6d621fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80")
 
-        btn7 = st.button("Complain",key=6)
+        btn7 = st.button("Complain",key=24)
         if btn7:
             assign(q7,"Complain")
 
@@ -2943,7 +2943,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1614061813295-0e0f82273dc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80")
 
-        btn7 = st.button("Become overly indecisive",key=6)
+        btn7 = st.button("Become overly indecisive",key=25)
         if btn7:
             assign(q7,"Become overly indecisive")
 
@@ -2952,7 +2952,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1615485737651-580c9159c89a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1481&q=80")
 
-        btn7 = st.button("Fantasize and day-dream",key=6)
+        btn7 = st.button("Fantasize and day-dream",key=26)
         
         if btn7:
             assign(q7,"Fantasize and day-dream")
@@ -2962,7 +2962,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1656422046523-469409b2b4d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80")
 
-        btn7 = st.button("Become rude",key=6)
+        btn7 = st.button("Become rude",key=27)
         
         if btn7:
             assign(q7,"Become rude")
@@ -2988,7 +2988,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1559916712-ae4427996e1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80")
         
-        btn8 = st.button("Incomplete tasks",key=7)
+        btn8 = st.button("Incomplete tasks",key=28)
         if btn8:
             assign(q8,"Incomplete tasks")
 
@@ -2996,7 +2996,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
     with col30:
 
         st.image("https://images.unsplash.com/photo-1624835020719-deec76c86249?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80")
-        btn8 = st.button("Small talk",key=7)
+        btn8 = st.button("Small talk",key=29)
         if btn8:
             assign(q8,"Small talk")
 
@@ -3004,7 +3004,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
     with col31:
 
         st.image("https://images.unsplash.com/photo-1656031784125-6eb734c24beb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80")
-        btn8 = st.button("Lying",key=7)
+        btn8 = st.button("Lying",key=30)
         
         if btn8:
             assign(q8,"Lying")
@@ -3014,7 +3014,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1652448919151-c8be3cfb185b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80")
 
-        btn8 = st.button("Deadlines",key=7)
+        btn8 = st.button("Deadlines",key=31)
         
         if btn8:
             assign(q8,"Deadlines")
@@ -3039,7 +3039,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1571809839227-b2ac3d261257?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80")
         
-        btn9 = st.button("Administrator",key=8)
+        btn9 = st.button("Administrator",key=32)
         if btn9:
             assign(q9,"Administrator")
 
@@ -3047,7 +3047,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
     with col30:
 
         st.image("https://images.unsplash.com/photo-1627054886476-0cdee47fde3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80")
-        btn9 = st.button("Criminologist",key=8)
+        btn9 = st.button("Criminologist",key=33)
         if btn9:
             assign(q9,"Criminologist")
 
@@ -3055,7 +3055,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
     with col31:
 
         st.image("https://images.unsplash.com/photo-1626200419537-f07108a01aac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1524&q=80")
-        btn9 = st.button("Journalist",key=8)
+        btn9 = st.button("Journalist",key=34)
         
         if btn9:
             assign(q9,"Journalist")
@@ -3065,7 +3065,7 @@ elif len(name)!=0 and gender!=None and option!="Select option" and option1!="Sel
 
         st.image("https://images.unsplash.com/photo-1603096285763-ad9a983c6d0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80")
 
-        btn9 = st.button("Comedian",key=8)
+        btn9 = st.button("Comedian",key=35)
         
         if btn9:
             assign(q9,"Comedian")
@@ -3488,14 +3488,14 @@ else:
 st.markdown("<style>.css-16nzq6b{font-size:22px;}</style>",unsafe_allow_html=True)
       
         
-# hide_st_style = """
-#             <style>
-#             #MainMenu {visibility: hidden;}
-#             footer {visibility: hidden;}
-#             header {visibility: hidden;}
-#             </style>
-#             """
-# st.markdown(hide_st_style, unsafe_allow_html=True)
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
 
 
 # function to add background image

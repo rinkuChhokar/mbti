@@ -166,6 +166,18 @@ st.markdown(
 
 
 
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
+
+
+
 # def set_bg_hack(main_bg):
 #     '''
 #     A function to unpack an image from root folder and set as bg.
