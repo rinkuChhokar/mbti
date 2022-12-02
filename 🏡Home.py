@@ -282,6 +282,8 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
     q20 = st.selectbox("20. In company do you",("Select option","Initiate conversation","Wait to be approached"),key=None)
  
 
+    st.markdown("<br>",unsafe_allow_html=True)
+    st.markdown("<br>",unsafe_allow_html=True)
     submit_btn = st.button("Submit test")
 
     if submit_btn and q1!="Select option" and q2!="Select option" and q3!="Select option" and q4!="Select option" and q5!="Select option" and q6!="Select option" and q7!="Select option" and q8!="Select option" and q9!="Select option" and q10!="Select option" and q11!="Select option" and q12!="Select option" and q13!="Select option" and q14!="Select option" and q15!="Select option" and q16!="Select option" and q17!="Select option" and q18!="Select option" and q19!="Select option" and q20!="Select option":
