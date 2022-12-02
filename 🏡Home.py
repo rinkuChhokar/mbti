@@ -165,7 +165,7 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
 
     mbti_test("MBTI Personality Test")
     
-    q1 = st.selectbox("1. What would you prefer to do when you go somewhere for the day?",("Select option","Plan what you will do and when, or","Just go!!"),key=None)
+    q1 = st.selectbox("1. What you prefer to do when you go somewhere for the day?",("Select option","Plan what you will do and when, or","Just go!!"),key=None)
     
     q2 = st.selectbox("2. Are you usually",("Select option","A 'good mixer' with groups of people, or","Rather quiet and reserved"),key=None)
     
