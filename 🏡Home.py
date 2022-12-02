@@ -163,47 +163,9 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
     st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
 
-    mbti_test("MBTIfgfgg Personality Test")
+    mbti_test("MBTI Personality Test")
     
-    q1 = st.selectbox("1. What would you prefer to do when you go somewhere for the day?",("Select option","Plan what you will do and when, or","Just go!!"),key=None)
     
-    q2 = st.selectbox("2. Are you usually",("Select option","A 'good mixer' with groups of people, or","Rather quiet and reserved"),key=None)
-    
-    q3 = st.selectbox("3. When you have a special job to do, do you like to",("Select option","Organize it carefully before you start, or","Find out what is necessary as you go along"),key=None)
-    
-    q4 = st.selectbox("4. Is it a higher compliment to be called",("Select option","A person of real feeling, or","A consistently reasonable person"),key=None)
-    
-    q5 = st.selectbox("5. Among your friends are you",("Select option","Full of news about everybody, or","One of the last to hear what is going on"),key=None)
-    
-    q6 = st.selectbox("6. In reading for pleasure, do you",("Select option","Enjoy odd or original ways of saying things, or","Like writers to say exactly what they mean"),key=None)
-    
-    q7 = st.selectbox("7. Does following a schedule",("Select option","Appeal to you, or","Cramp you"),key=None)
-    
-    q8 = st.selectbox("8. Do you usually",("Select option","Value emotion more than logic, or","Value logic more than feelings"),key=None)
-    
-    q9 = st.selectbox("9. Do you",("Select option","Talk easily to almost anyone for as long as you have to, or","Find a lot to say only to certain people or under certain conditions"),key=None)
-    
-    q10 = st.selectbox("10. Are you more interested in",("Select option","What is actual","What is possible"),key=None)
-    
-    q11 = st.selectbox("11. Do you prefer to work",("Select option","To deadlines","Just 'whenever'"),key=None)
-    
-    q12 = st.selectbox("12. Are you more comfortable in making",("Select option","Logical judgments","Value judgments"),key=None)
-    
-    q13 = st.selectbox("13. Would you say you are more",("Select option","Serious and determined","Easy-going"),key=None)
-    
-    q14 = st.selectbox("14. At a party do you",("Select option","Interact with many, including strangers","Interact with a few, known to you"),key=None)
-    
-    q15 = st.selectbox("15. Which do you wish more for yourself",("Select option","Clarity of reason","Strength of compassion"),key=None)
-    
-    q16 = st.selectbox("16. Are you more likely to trust your",("Select option","Experience","Hunch"),key=None)
-    
-    q17 = st.selectbox("17. Are you more inclined to be",("Select option","Easy to approach","Somewhat reserved"),key=None)
-    
-    q18 = st.selectbox("18. Which rules you more",("Select option","Your head","Your heart"),key=None)
-    
-    q19 = st.selectbox("19. When the phone rings do you",("Select option","Hasten to get to it first","Hope someone else will answer"),key=None)
-    
-    q20 = st.selectbox("20. In company do you",("Select option","Initiate conversation","Wait to be approached"),key=None)
     
 
     submit_btn = st.button("Submit test")
