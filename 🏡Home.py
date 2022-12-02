@@ -203,6 +203,7 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
     q19 = st.selectbox("19. When the phone rings do you",("Select option","Hasten to get to it first","Hope someone else will answer"),key=None)
     
     q20 = st.selectbox("20. In company do you",("Select option","Initiate conversation","Wait to be approached"),key=None)
+    q21 = st.selectbox("21. In company do you",("Select option","Initiate conversation","Wait to be approached"),key=None)
     
 
     
