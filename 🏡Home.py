@@ -169,9 +169,11 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
     
     st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
+    st.markdown("<br>",unsafe_allow_html=True)
     header4("2. Are you usually")
     q2 = st.selectbox("2. Are you usually",("Select option","A 'good mixer' with groups of people, or","Rather quiet and reserved"),key=None)
     
+    st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
     header4("3. When you have a special job to do, do you like to")
@@ -179,9 +181,11 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
     
     st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
+    st.markdown("<br>",unsafe_allow_html=True)
     header4("4. Is it a higher compliment to be called")
     q4 = st.selectbox("4. Is it a higher compliment to be called",("Select option","A person of real feeling, or","A consistently reasonable person"),key=None)
     
+    st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
     header4("5. Among your friends are you")
@@ -189,9 +193,11 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
     
     st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
+    st.markdown("<br>",unsafe_allow_html=True)
     header4("6. In reading for pleasure, do you")
     q6 = st.selectbox("6. In reading for pleasure, do you",("Select option","Enjoy odd or original ways of saying things, or","Like writers to say exactly what they mean"),key=None)
     
+    st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
     header4("7. Does following a schedule")
@@ -199,9 +205,11 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
     
     st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
+    st.markdown("<br>",unsafe_allow_html=True)
     header4("8. Do you usually")
     q8 = st.selectbox("8. Do you usually",("Select option","Value emotion more than logic, or","Value logic more than feelings"),key=None)
     
+    st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
     header4("9. Do you")
@@ -209,9 +217,11 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
     
     st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
+    st.markdown("<br>",unsafe_allow_html=True)
     header4("10. Are you more interested in")
     q10 = st.selectbox("10. Are you more interested in",("Select option","What is actual","What is possible"),key=None)
     
+    st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
     header4("11. Do you prefer to work")
@@ -219,9 +229,11 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
     
     st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
+    st.markdown("<br>",unsafe_allow_html=True)
     header4("12. Are you more comfortable in making")
     q12 = st.selectbox("12. Are you more comfortable in making",("Select option","Logical judgments","Value judgments"),key=None)
     
+    st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
     header4("13. Would you say you are more")
@@ -229,9 +241,11 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
     
     st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
+    st.markdown("<br>",unsafe_allow_html=True)
     header4("14. At a party do you")
     q14 = st.selectbox("14. At a party do you",("Select option","Interact with many, including strangers","Interact with a few, known to you"),key=None)
     
+    st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
     header4("15. Which do you wish more for yourself")
@@ -239,9 +253,11 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
     
     st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
+    st.markdown("<br>",unsafe_allow_html=True)
     header4("16. Are you more likely to trust your")
     q16 = st.selectbox("16. Are you more likely to trust your",("Select option","Experience","Hunch"),key=None)
     
+    st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
     header4("17. Are you more inclined to be")
@@ -249,14 +265,17 @@ if len(name)!=0  and gender!=None and option!="Select option" and option1!="Sele
     
     st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
+    st.markdown("<br>",unsafe_allow_html=True)
     header4("18. Which rules you more")
     q18 = st.selectbox("18. Which rules you more",("Select option","Your head","Your heart"),key=None)
     
     st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
+    st.markdown("<br>",unsafe_allow_html=True)
     header4("19. When the phone rings do you")
     q19 = st.selectbox("19. When the phone rings do you",("Select option","Hasten to get to it first","Hope someone else will answer"),key=None)
     
+    st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
     st.markdown("<br>",unsafe_allow_html=True)
     header4("20. In company do you")
