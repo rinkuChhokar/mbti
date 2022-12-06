@@ -7,4 +7,6 @@ textColor="#ffffff"
 [server]
 enableCORS = false
 enableWebsocketCompression = false
+
+[browser]
 serverAddress = 35.230.127.150
