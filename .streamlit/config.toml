@@ -9,4 +9,4 @@ enableCORS = false
 enableWebsocketCompression = false
 
 [browser]
-serverAddress = "35.230.127.150"
+serverAddress = "34.127.33.101"
